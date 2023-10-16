@@ -1,0 +1,26 @@
+html {
+    background-color:rgb(143, 175, 235);
+}
+
+button {
+    position: absolute;
+    top: 10px; 
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 17px; 
+}
+
+#header {
+    text-align: center; 
+    position: sticky; 
+}
+
+h3 {
+    color:crimson;
+    font-size: 20px; 
+}
+
+#items {
+    font-family:'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+}

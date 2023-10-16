@@ -1,0 +1,58 @@
+html {
+    background-color:rgb(197, 168, 168); 
+    color:rgb(0, 0, 0); 
+}
+
+#menu {
+    background-color: purple; 
+}
+
+#menu a {
+    font-size: 19px; 
+    color: white; 
+}
+
+#menu-options {
+    display: flex;
+    flex-direction: row; 
+    align-items: center; 
+    justify-content:space-around; 
+}
+
+#menu-options li {
+    list-style-type: none; 
+    margin: 10px; 
+    padding: 10px; 
+    color: blue; 
+}
+
+#aboutme {
+    width: 100%;
+    font-size: 25px; 
+    display: inline; 
+    text-align: center; 
+}
+
+#aboutme h3 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#aboutme p {
+    border: 1px solid green; 
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#color {
+    position: relative; 
+    text-align: center; 
+}
+
+img {
+    transform: scale(1);
+    transition: transform 2s;
+}
+
+img:hover {
+    transform: scale(1.6);
+}
